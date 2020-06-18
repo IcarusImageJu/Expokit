@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "37702816132",
+    "firebase_url": "https://safe-buildings.firebaseio.com",
+    "project_id": "safe-buildings",
+    "storage_bucket": "safe-buildings.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37702816132:android:51caa57251dd769f5a0dd1",
+        "android_client_info": {
+          "package_name": "com.safebuildingstech.safebuildings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37702816132-vqtgfqh1f8555q7cjgoietcii5bjte6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7vZSOTca11Blv6L0S7TnX1cW-hzSLSKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37702816132-vqtgfqh1f8555q7cjgoietcii5bjte6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

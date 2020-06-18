@@ -1,0 +1,81 @@
+{
+  "expo": {
+    "name": "xxx",
+    "slug": "xxx",
+    "privacy": "unlisted",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "2.2.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "primaryColor": "#130769",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#130769"
+	},
+	"notification":{
+		"icon": "",
+		"color": "#0E6AD2",
+		"iosDisplayInForeground": true
+	},
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#130769"
+    },
+    "androidNavigationBar": {
+      "visible": false,
+      "barStyle": "light-content",
+      "backgroundColor": "#130769"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 30000
+	},
+	"assetBundlePatterns": [
+		"**/*"
+	],
+    "ios": {
+      "bundleIdentifier": "com.safebuildingstech.safebuildings",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "The camera is used to scan QRCode on building for quick identification and information access",
+        "NSFaceIDUsageDescription": "The face ID is used in order to log in"
+      },
+      "publishBundlePath": "ios/safe-buildings/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/safe-buildings/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "com.safebuildingstech.safebuildings",
+      "permissions": [
+        "CAMERA",
+        "CAMERA_ROLL"
+      ],
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    },
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "xxx",
+      "androidExpoViewUrl": "xxx"
+    },
+	"scheme": "expd4bdc4a37b454b12a75acdcecb78aadf",
+	"hooks": {
+		"postPublish": [
+			{
+				"file": "sentry-expo/upload-sourcemaps",
+				"config": {
+					"organization": "sentry",
+					"project": "xxx",
+					"authToken": "xxx",
+					"url": "xxx"
+				}
+			}
+		]
+	}
+  }
+}

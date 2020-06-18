@@ -1,0 +1,11 @@
+export const LOAD_NOTIFICATIONS_FAIL = 'app/NotificationsProvider/LOAD_NOTIFICATIONS_FAIL';
+export const LOAD_NOTIFICATIONS_SUCCESS = 'app/NotificationsProvider/LOAD_NOTIFICATIONSSUCCESS';
+export const LOAD_NOTIFICATIONS = 'app/NotificationsProvider/LOAD_NOTIFICATIONS';
+export const DELETE_NOTIFICATION_FAIL = 'app/NotificationsProvider/DELETE_NOTIFICATION_FAIL';
+export const DELETE_NOTIFICATION_SUCCESS = 'app/NotificationsProvider/DELETE_NOTIFICATION_SUCCESS';
+export const DELETE_NOTIFICATION = 'app/NotificationsProvider/DELETE_NOTIFICATION';
+export const SEEN_NOTIFICATION_FAIL = 'app/NotificationsProvider/SEEN_NOTIFICATION_FAIL';
+export const SEEN_NOTIFICATION_SUCCESS = 'app/NotificationsProvider/SEEN_NOTIFICATION_SUCCESS';
+export const SEEN_NOTIFICATION = 'app/NotificationsProvider/SEEN_NOTIFICATION';
+export const SUBSCRIBE_PUSH_NOTIFICATIONS = 'app/NotificationsProvider/SUBSCRIBE_PUSH_NOTIFICATIONS';
+export const RESET_PAGE = 'app/NotificationsProvider/RESET_PAGE';

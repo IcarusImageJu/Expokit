@@ -1,0 +1,8 @@
+const ENUM_TYPE_BUTTON = {
+	PARENT: 0,
+	FIELD: 1,
+	CHECKLIST: 2,
+	DOCUMENT: 3,
+};
+
+export default ENUM_TYPE_BUTTON;

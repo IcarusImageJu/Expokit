@@ -1,0 +1,9 @@
+export const CHANGE_INPUT = 'containers/MyAccount/CHANGE_INPUT';
+export const SUBMIT_PASSWORD = 'containers/MyAccount/SUBMIT_PASSWORD';
+export const CHANGE_USER = 'containers/MyAccount/CHANGE_USER';
+export const RESET = 'containers/MyAccount/RESET';
+export const SUBMIT_PASSWORD_NO_MATCH = 'containers/MyAccount/SUBMIT_PASSWORD_NO_MATCH';
+export const SUBMIT_PASSWORD_SECURITY = 'containers/MyAccount/SUBMIT_PASSWORD_SECURITY';
+export const SUBMIT_PASSWORD_INCORRECT_PASSWORD = 'containers/MyAccount/SUBMIT_PASSWORD_INCORRECT_PASSWORD';
+export const SUBMIT_PASSWORD_FAIL = 'containers/MyAccount/SUBMIT_PASSWORD_FAIL';
+export const SUBMIT_PASSWORD_SUCCESS = 'containers/MyAccount/SUBMIT_PASSWORD_SUCCESS';

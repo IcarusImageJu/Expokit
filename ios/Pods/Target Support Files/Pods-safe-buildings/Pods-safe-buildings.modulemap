@@ -1,0 +1,6 @@
+framework module Pods_safe_buildings {
+  umbrella header "Pods-safe-buildings-umbrella.h"
+
+  export *
+  module * { export * }
+}
