@@ -41,7 +41,7 @@
     "immer": "^5.0.1",
     "invariant": "^2.2.4",
     "jwt-decode": "^2.2.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "modal-enhanced-react-native-web": "^0.2.0",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
